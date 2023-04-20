@@ -6,7 +6,7 @@
 
   <head>
     <title>
-      {783} Requisitos do Projeto SGCloud202304 – SG Sistemas
+      {790} Requisitos do Projeto SGCloud202305 – SG Sistemas
     </title>
       <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
       <meta http-equiv="X-UA-Compatible" content="IE=edge" />
@@ -16,8 +16,8 @@
     </script><![endif]-->
         <link rel="search" href="/sgsistemas/search" />
         <link rel="help" href="/sgsistemas/wiki/TracGuide" />
-        <link rel="alternate" href="/sgsistemas/login?referer=%2Fsgsistemas%2Freport%2F783%3Fasc%3D1%26max%3D0%26format%3Drss" type="application/rss+xml" class="rss" title="RSS Feed" /><link rel="alternate" href="/sgsistemas/report/783?asc=1&amp;max=0&amp;page=1&amp;format=csv" type="text/plain" title="Comma-delimited Text" /><link rel="alternate" href="/sgsistemas/report/783?asc=1&amp;max=0&amp;page=1&amp;format=tab" type="text/plain" title="Tab-delimited Text" /><link rel="alternate" href="/sgsistemas/report?id=783&amp;format=sql" type="text/plain" title="SQL Query" />
-        <link rel="up" href="/sgsistemas/report" title="Available Reports" />
+        <link rel="alternate" href="/sgsistemas/login?referer=%2Fsgsistemas%2Freport%2F790%3Fasc%3D1%26max%3D0%26format%3Drss" type="application/rss+xml" class="rss" title="RSS Feed" /><link rel="alternate" href="/sgsistemas/report/790?asc=1&amp;max=0&amp;page=1&amp;format=csv" type="text/plain" title="Texto separado por vírgulas" /><link rel="alternate" href="/sgsistemas/report/790?asc=1&amp;max=0&amp;page=1&amp;format=tab" type="text/plain" title="Texto delimitado por TABs" /><link rel="alternate" href="/sgsistemas/report?id=790&amp;format=sql" type="text/plain" title="Query SQL" />
+        <link rel="up" href="/sgsistemas/report" title="Relatórios Disponíveis" />
         <link rel="start" href="/sgsistemas/wiki" />
         <link rel="stylesheet" href="/sgsistemas/chrome/common/css/trac.css" type="text/css" /><link rel="stylesheet" href="/sgsistemas/chrome/common/css/report.css" type="text/css" /><link rel="stylesheet" href="/sgsistemas/chrome/tracwysiwyg/wysiwyg.css" type="text/css" />
         <link rel="tracwysiwyg.stylesheet" href="/sgsistemas/chrome/common/css/trac.css" /><link rel="tracwysiwyg.stylesheet" href="/sgsistemas/chrome/tracwysiwyg/editor.css" />
@@ -25,9 +25,10 @@
         <link rel="shortcut icon" href="/sgsistemas/chrome/common/trac.ico" type="image/x-icon" />
         <link rel="icon" href="/sgsistemas/chrome/common/trac.ico" type="image/x-icon" />
     <style id="trac-noscript" type="text/css">.trac-noscript { display: none !important }</style>
-      <link type="application/opensearchdescription+xml" rel="search" href="/sgsistemas/search/opensearch" title="Search SG Sistemas" />
+      <link type="application/opensearchdescription+xml" rel="search" href="/sgsistemas/search/opensearch" title="Pesquisar SG Sistemas" />
       <script type="text/javascript" charset="utf-8" src="/sgsistemas/chrome/common/js/jquery.js"></script>
       <script type="text/javascript" charset="utf-8" src="/sgsistemas/chrome/common/js/babel.js"></script>
+      <script type="text/javascript" charset="utf-8" src="/sgsistemas/chrome/common/js/messages/pt_BR.js"></script>
       <script type="text/javascript" charset="utf-8" src="/sgsistemas/chrome/common/js/trac.js"></script>
       <script type="text/javascript" charset="utf-8" src="/sgsistemas/chrome/common/js/search.js"></script>
       <script type="text/javascript" charset="utf-8" src="/sgsistemas/chrome/tracwysiwyg/wysiwyg.js"></script>
@@ -49,44 +50,44 @@
       </div>
       <form id="search" action="/sgsistemas/search" method="get">
         <div>
-          <label for="proj-search">Search:</label>
+          <label for="proj-search">Pesquisa:</label>
           <input type="text" id="proj-search" name="q" size="18" value="" />
-          <input type="submit" value="Search" />
+          <input type="submit" value="Pesquisa" />
         </div>
       </form>
       <div id="metanav" class="nav">
     <ul>
-      <li class="first">logged in as keven</li><li><form action="/sgsistemas/logout" class="trac-logout" id="logout" method="post"><div><input type="hidden" name="__FORM_TOKEN" value="b2284fb0e89239bb115e6330" /></div><div><button type="submit" name="logout">Logout</button></div></form></li><li><a href="/sgsistemas/wiki/TracGuide">Help/Guide</a></li><li><a href="/sgsistemas/about">About Trac</a></li><li class="last"><a href="/sgsistemas/prefs">Preferences</a></li>
+      <li class="first">registrado como keven</li><li><form action="/sgsistemas/logout" class="trac-logout" id="logout" method="post"><div><input type="hidden" name="__FORM_TOKEN" value="931676d6a40cea21c4a1dfd0" /></div><div><button type="submit" name="logout">Logout</button></div></form></li><li><a href="/sgsistemas/wiki/TracGuide">Ajuda/Guia</a></li><li><a href="/sgsistemas/about">Sobre o Trac</a></li><li class="last"><a href="/sgsistemas/prefs">Preferências</a></li>
     </ul>
   </div>
     </div>
     <div id="mainnav" class="nav">
     <ul>
-      <li class="first"><a href="/sgsistemas/wiki">Wiki</a></li><li><a href="/sgsistemas/timeline">Timeline</a></li><li><a href="/sgsistemas/roadmap">Roadmap</a></li><li><a href="/sgsistemas/browser">Browse Source</a></li><li class="active"><a href="/sgsistemas/report">View Tickets</a></li><li><a href="/sgsistemas/newticket">New Ticket</a></li><li><a href="/sgsistemas/search">Search</a></li><li class="last"><a href="/sgsistemas/admin">Admin</a></li>
+      <li class="first"><a href="/sgsistemas/wiki">Wiki</a></li><li><a href="/sgsistemas/timeline">Histórico</a></li><li><a href="/sgsistemas/roadmap">Planejamento</a></li><li><a href="/sgsistemas/browser">Ver Código</a></li><li class="active"><a href="/sgsistemas/report">Visualizar Tíquetes</a></li><li><a href="/sgsistemas/newticket">Novo Tíquete</a></li><li><a href="/sgsistemas/search">Pesquisa</a></li><li class="last"><a href="/sgsistemas/admin">Admin</a></li>
     </ul>
   </div>
     <div id="main">
       <div id="ctxtnav" class="nav">
-        <h2>Context Navigation</h2>
+        <h2>Navegação no Contexto</h2>
         <ul>
-          <li class="first"><a href="/sgsistemas/report">Available Reports</a></li><li class="last"><a href="/sgsistemas/query">Custom Query</a></li>
+          <li class="first"><a href="/sgsistemas/report">Relatórios Disponíveis</a></li><li class="last"><a href="/sgsistemas/query">Busca Avançada</a></li>
         </ul>
         <hr />
       </div>
     <div id="content" class="report">
-      <h1>{783} Requisitos do Projeto SGCloud202304
-        <span class="numrows">(26 matches)</span>
+      <h1>{790} Requisitos do Projeto SGCloud202305
+        <span class="numrows">(23 casam)</span>
       </h1>
       <form method="get" action="">
         <div id="prefs">
           <div>
             <label>
-              Max items per page
+              Número máximo de itens por página
               <input type="text" name="max" size="10" value="0" />
             </label>
           </div>
           <div class="buttons">
-            <input type="submit" value="Update" />
+            <input type="submit" value="Atualizar" />
           </div>
         </div>
       </form>
@@ -94,72 +95,72 @@
         <form action="" method="get">
           <div>
             <input type="hidden" name="action" value="edit" />
-            <input type="submit" value="Edit report" />
+            <input type="submit" value="Editar relatório" />
           </div>
         </form>
         <form action="" method="get">
           <div>
             <input type="hidden" name="action" value="copy" />
-            <input type="submit" value="Copy report" />
+            <input type="submit" value="Copiar relatório" />
           </div>
         </form>
         <form action="" method="get">
           <div>
             <input type="hidden" name="action" value="delete" />
-            <input type="submit" value="Delete report" />
+            <input type="submit" value="Apagar relatório" />
           </div>
         </form>
       </div>
       
         <h2 class="report-result">
-          Projeto SGCloud202304
+          Projeto SGCloud202305
           <span class="numrows">
-            (26 matches)
+            (23 casam)
           </span>
         </h2>
       <table class="listing tickets">
           <thead>
         <tr class="trac-columns">
           <th>
-            <a href="/sgsistemas/report/783?sort=ticket&amp;max=0&amp;asc=1&amp;page=1">
+            <a href="/sgsistemas/report/790?sort=ticket&amp;max=0&amp;asc=1&amp;page=1">
               Ticket
             </a>
           </th><th>
-            <a href="/sgsistemas/report/783?sort=summary&amp;max=0&amp;asc=1&amp;page=1">
-              Summary
+            <a href="/sgsistemas/report/790?sort=summary&amp;max=0&amp;asc=1&amp;page=1">
+              Sumário
             </a>
           </th><th>
-            <a href="/sgsistemas/report/783?sort=component&amp;max=0&amp;asc=1&amp;page=1">
-              Component
+            <a href="/sgsistemas/report/790?sort=component&amp;max=0&amp;asc=1&amp;page=1">
+              Componente
             </a>
           </th><th>
-            <a href="/sgsistemas/report/783?sort=owner&amp;max=0&amp;asc=1&amp;page=1">
-              Owner
+            <a href="/sgsistemas/report/790?sort=owner&amp;max=0&amp;asc=1&amp;page=1">
+              Dono
             </a>
           </th><th>
-            <a href="/sgsistemas/report/783?sort=type&amp;max=0&amp;asc=1&amp;page=1">
-              Type
+            <a href="/sgsistemas/report/790?sort=type&amp;max=0&amp;asc=1&amp;page=1">
+              Tipo
             </a>
           </th><th>
-            <a href="/sgsistemas/report/783?sort=version&amp;max=0&amp;asc=1&amp;page=1">
-              Version
+            <a href="/sgsistemas/report/790?sort=version&amp;max=0&amp;asc=1&amp;page=1">
+              Versão
             </a>
           </th><th>
-            <a href="/sgsistemas/report/783?sort=status&amp;max=0&amp;asc=1&amp;page=1">
-              Status
+            <a href="/sgsistemas/report/790?sort=status&amp;max=0&amp;asc=1&amp;page=1">
+              Estado
             </a>
           </th><th>
-            <a href="/sgsistemas/report/783?sort=estimatedhours&amp;max=0&amp;asc=1&amp;page=1">
+            <a href="/sgsistemas/report/790?sort=estimatedhours&amp;max=0&amp;asc=1&amp;page=1">
               Pontos Estimados
             </a>
           </th><th colspan="100">
-            <a href="/sgsistemas/report/783?sort=sprint&amp;max=0&amp;asc=1&amp;page=1">
+            <a href="/sgsistemas/report/790?sort=sprint&amp;max=0&amp;asc=1&amp;page=1">
               Sprint
             </a>
           </th>
         </tr><tr class="trac-columns">
           <th colspan="100">
-            <a href="/sgsistemas/report/783?sort=_description_&amp;max=0&amp;asc=1&amp;page=1">
+            <a href="/sgsistemas/report/790?sort=_description_&amp;max=0&amp;asc=1&amp;page=1">
               Description
             </a>
           </th>
@@ -169,10 +170,10 @@
           <tbody>
               <tr class="color-even">
                           <td class="ticket">
-                            <a title="View ticket" href="/sgsistemas/ticket/1286083">#1286083</a>
+                            <a title="Visualizar ticket" href="/sgsistemas/ticket/1292882">#1292882</a>
                           </td>
                           <td class="summary">
-                            <a title="View ticket" href="/sgsistemas/ticket/1286083">SP1/2 - PROJETO SGCLOUD202304 - BASELINE 20230420BE - 17/04/23</a>
+                            <a title="Visualizar ticket" href="/sgsistemas/ticket/1292882">SP1/2 - PROJETO SGCLOUD202305 - BASELINE 20230519BE - 15/05/23</a>
                           </td>
                           <td class="component">CMMI
                           </td>
@@ -197,10 +198,10 @@
               </tr>
               <tr class="color-odd">
                           <td class="ticket">
-                            <a title="View ticket" href="/sgsistemas/ticket/1286087">#1286087</a>
+                            <a title="Visualizar ticket" href="/sgsistemas/ticket/1292886">#1292886</a>
                           </td>
                           <td class="summary">
-                            <a title="View ticket" href="/sgsistemas/ticket/1286087">RETROSPECTIVA - PROJETO SGCLOUD202304 - BASELINE 20230420BE - 24/04/23</a>
+                            <a title="Visualizar ticket" href="/sgsistemas/ticket/1292886">RETROSPECTIVA - PROJETO SGCLOUD202305 - BASELINE 20230519BE - 22/05/23</a>
                           </td>
                           <td class="component">CMMI
                           </td>
@@ -225,10 +226,10 @@
               </tr>
               <tr class="color-even">
                           <td class="ticket">
-                            <a title="View ticket" href="/sgsistemas/ticket/1286091">#1286091</a>
+                            <a title="Visualizar ticket" href="/sgsistemas/ticket/1292890">#1292890</a>
                           </td>
                           <td class="summary">
-                            <a title="View ticket" href="/sgsistemas/ticket/1286091">REVIEW - PROJETO SGCLOUD202304 - BASELINE 20230420BE - 26/04/23</a>
+                            <a title="Visualizar ticket" href="/sgsistemas/ticket/1292890">REVIEW - PROJETO SGCLOUD202305 - BASELINE 20230519BE - 24/05/23</a>
                           </td>
                           <td class="component">CMMI
                           </td>
@@ -253,10 +254,10 @@
               </tr>
               <tr class="color-odd">
                           <td class="ticket">
-                            <a title="View ticket" href="/sgsistemas/ticket/1286102">#1286102</a>
+                            <a title="Visualizar ticket" href="/sgsistemas/ticket/1292901">#1292901</a>
                           </td>
                           <td class="summary">
-                            <a title="View ticket" href="/sgsistemas/ticket/1286102">ALTERACAO TICKET-PROJETO SGCLOUD202304 - BASELINE 20230420BE - 24/04/23</a>
+                            <a title="Visualizar ticket" href="/sgsistemas/ticket/1292901">ALTERACAO TICKET-PROJETO SGCLOUD202305 - BASELINE 20230519BE - 22/05/23</a>
                           </td>
                           <td class="component">CMMI
                           </td>
@@ -281,10 +282,10 @@
               </tr>
               <tr class="color-even">
                           <td class="ticket">
-                            <a title="View ticket" href="/sgsistemas/ticket/1286082">#1286082</a>
+                            <a title="Visualizar ticket" href="/sgsistemas/ticket/1292881">#1292881</a>
                           </td>
                           <td class="summary">
-                            <a title="View ticket" href="/sgsistemas/ticket/1286082">SP1/2 - PROJETO SGCLOUD202304 - BASELINE 20230420BE - 10/04/23</a>
+                            <a title="Visualizar ticket" href="/sgsistemas/ticket/1292881">SP1/2 - PROJETO SGCLOUD202305 - BASELINE 20230519BE - 09/05/23</a>
                           </td>
                           <td class="component">CMMI
                           </td>
@@ -309,10 +310,10 @@
               </tr>
               <tr class="color-odd">
                           <td class="ticket">
-                            <a title="View ticket" href="/sgsistemas/ticket/1286086">#1286086</a>
+                            <a title="Visualizar ticket" href="/sgsistemas/ticket/1292885">#1292885</a>
                           </td>
                           <td class="summary">
-                            <a title="View ticket" href="/sgsistemas/ticket/1286086">RETROSPECTIVA - PROJETO SGCLOUD202304 - BASELINE 20230420BE - 17/04/23</a>
+                            <a title="Visualizar ticket" href="/sgsistemas/ticket/1292885">RETROSPECTIVA - PROJETO SGCLOUD202305 - BASELINE 20230519BE - 15/05/23</a>
                           </td>
                           <td class="component">CMMI
                           </td>
@@ -337,10 +338,10 @@
               </tr>
               <tr class="color-even">
                           <td class="ticket">
-                            <a title="View ticket" href="/sgsistemas/ticket/1286090">#1286090</a>
+                            <a title="Visualizar ticket" href="/sgsistemas/ticket/1292889">#1292889</a>
                           </td>
                           <td class="summary">
-                            <a title="View ticket" href="/sgsistemas/ticket/1286090">REVIEW - PROJETO SGCLOUD202304 - BASELINE 20230420BE - 19/04/23</a>
+                            <a title="Visualizar ticket" href="/sgsistemas/ticket/1292889">REVIEW - PROJETO SGCLOUD202305 - BASELINE 20230519BE - 17/05/23</a>
                           </td>
                           <td class="component">CMMI
                           </td>
@@ -365,10 +366,10 @@
               </tr>
               <tr class="color-odd">
                           <td class="ticket">
-                            <a title="View ticket" href="/sgsistemas/ticket/1286101">#1286101</a>
+                            <a title="Visualizar ticket" href="/sgsistemas/ticket/1292900">#1292900</a>
                           </td>
                           <td class="summary">
-                            <a title="View ticket" href="/sgsistemas/ticket/1286101">ALTERACAO TICKET-PROJETO SGCLOUD202304 - BASELINE 20230420BE - 17/04/23</a>
+                            <a title="Visualizar ticket" href="/sgsistemas/ticket/1292900">ALTERACAO TICKET-PROJETO SGCLOUD202305 - BASELINE 20230519BE - 15/05/23</a>
                           </td>
                           <td class="component">CMMI
                           </td>
@@ -393,10 +394,10 @@
               </tr>
               <tr class="color-even">
                           <td class="ticket">
-                            <a title="View ticket" href="/sgsistemas/ticket/1286081">#1286081</a>
+                            <a title="Visualizar ticket" href="/sgsistemas/ticket/1292880">#1292880</a>
                           </td>
                           <td class="summary">
-                            <a title="View ticket" href="/sgsistemas/ticket/1286081">SP1/2 - PROJETO SGCLOUD202304 - BASELINE 20230420BE - 03/04/23</a>
+                            <a title="Visualizar ticket" href="/sgsistemas/ticket/1292880">SP1/2 - PROJETO SGCLOUD202305 - BASELINE 20230519BE - 02/05/23</a>
                           </td>
                           <td class="component">CMMI
                           </td>
@@ -421,10 +422,10 @@
               </tr>
               <tr class="color-odd">
                           <td class="ticket">
-                            <a title="View ticket" href="/sgsistemas/ticket/1286085">#1286085</a>
+                            <a title="Visualizar ticket" href="/sgsistemas/ticket/1292884">#1292884</a>
                           </td>
                           <td class="summary">
-                            <a title="View ticket" href="/sgsistemas/ticket/1286085">RETROSPECTIVA - PROJETO SGCLOUD202304 - BASELINE 20230420BE - 10/04/23</a>
+                            <a title="Visualizar ticket" href="/sgsistemas/ticket/1292884">RETROSPECTIVA - PROJETO SGCLOUD202305 - BASELINE 20230519BE - 09/05/23</a>
                           </td>
                           <td class="component">CMMI
                           </td>
@@ -449,10 +450,10 @@
               </tr>
               <tr class="color-even">
                           <td class="ticket">
-                            <a title="View ticket" href="/sgsistemas/ticket/1286089">#1286089</a>
+                            <a title="Visualizar ticket" href="/sgsistemas/ticket/1292888">#1292888</a>
                           </td>
                           <td class="summary">
-                            <a title="View ticket" href="/sgsistemas/ticket/1286089">REVIEW - PROJETO SGCLOUD202304 - BASELINE 20230420BE - 12/04/23</a>
+                            <a title="Visualizar ticket" href="/sgsistemas/ticket/1292888">REVIEW - PROJETO SGCLOUD202305 - BASELINE 20230519BE - 10/05/23</a>
                           </td>
                           <td class="component">CMMI
                           </td>
@@ -477,10 +478,10 @@
               </tr>
               <tr class="color-odd">
                           <td class="ticket">
-                            <a title="View ticket" href="/sgsistemas/ticket/1286100">#1286100</a>
+                            <a title="Visualizar ticket" href="/sgsistemas/ticket/1292899">#1292899</a>
                           </td>
                           <td class="summary">
-                            <a title="View ticket" href="/sgsistemas/ticket/1286100">ALTERACAO TICKET-PROJETO SGCLOUD202304 - BASELINE 20230420BE - 10/04/23</a>
+                            <a title="Visualizar ticket" href="/sgsistemas/ticket/1292899">ALTERACAO TICKET-PROJETO SGCLOUD202305 - BASELINE 20230519BE - 09/05/23</a>
                           </td>
                           <td class="component">CMMI
                           </td>
@@ -505,10 +506,10 @@
               </tr>
               <tr class="color-even">
                           <td class="ticket">
-                            <a title="View ticket" href="/sgsistemas/ticket/1286080">#1286080</a>
+                            <a title="Visualizar ticket" href="/sgsistemas/ticket/1292879">#1292879</a>
                           </td>
                           <td class="summary">
-                            <a title="View ticket" href="/sgsistemas/ticket/1286080">SP1/2 - PROJETO SGCLOUD202304 - BASELINE 20230420BE - 27/03/23</a>
+                            <a title="Visualizar ticket" href="/sgsistemas/ticket/1292879">SP1/2 - PROJETO SGCLOUD202305 - BASELINE 20230519BE - 24/04/23</a>
                           </td>
                           <td class="component">CMMI
                           </td>
@@ -533,10 +534,10 @@
               </tr>
               <tr class="color-odd">
                           <td class="ticket">
-                            <a title="View ticket" href="/sgsistemas/ticket/1286084">#1286084</a>
+                            <a title="Visualizar ticket" href="/sgsistemas/ticket/1292883">#1292883</a>
                           </td>
                           <td class="summary">
-                            <a title="View ticket" href="/sgsistemas/ticket/1286084">RETROSPECTIVA - PROJETO SGCLOUD202304 - BASELINE 20230420BE - 03/04/23</a>
+                            <a title="Visualizar ticket" href="/sgsistemas/ticket/1292883">RETROSPECTIVA - PROJETO SGCLOUD202305 - BASELINE 20230519BE - 02/05/23</a>
                           </td>
                           <td class="component">CMMI
                           </td>
@@ -561,10 +562,10 @@
               </tr>
               <tr class="color-even">
                           <td class="ticket">
-                            <a title="View ticket" href="/sgsistemas/ticket/1286088">#1286088</a>
+                            <a title="Visualizar ticket" href="/sgsistemas/ticket/1292887">#1292887</a>
                           </td>
                           <td class="summary">
-                            <a title="View ticket" href="/sgsistemas/ticket/1286088">REVIEW - PROJETO SGCLOUD202304 - BASELINE 20230420BE - 05/04/23</a>
+                            <a title="Visualizar ticket" href="/sgsistemas/ticket/1292887">REVIEW - PROJETO SGCLOUD202305 - BASELINE 20230519BE - 03/05/23</a>
                           </td>
                           <td class="component">CMMI
                           </td>
@@ -589,10 +590,10 @@
               </tr>
               <tr class="color-odd">
                           <td class="ticket">
-                            <a title="View ticket" href="/sgsistemas/ticket/1286099">#1286099</a>
+                            <a title="Visualizar ticket" href="/sgsistemas/ticket/1292898">#1292898</a>
                           </td>
                           <td class="summary">
-                            <a title="View ticket" href="/sgsistemas/ticket/1286099">ALTERACAO TICKET-PROJETO SGCLOUD202304 - BASELINE 20230420BE - 03/04/23</a>
+                            <a title="Visualizar ticket" href="/sgsistemas/ticket/1292898">ALTERACAO TICKET-PROJETO SGCLOUD202305 - BASELINE 20230519BE - 02/05/23</a>
                           </td>
                           <td class="component">CMMI
                           </td>
@@ -617,10 +618,10 @@
               </tr>
               <tr class="color-even">
                           <td class="ticket">
-                            <a title="View ticket" href="/sgsistemas/ticket/1286092">#1286092</a>
+                            <a title="Visualizar ticket" href="/sgsistemas/ticket/1292891">#1292891</a>
                           </td>
                           <td class="summary">
-                            <a title="View ticket" href="/sgsistemas/ticket/1286092">REUNIAO MENSAL DO DESENVOLVIMENTO - SGCLOUD - 19/04/23</a>
+                            <a title="Visualizar ticket" href="/sgsistemas/ticket/1292891">REUNIAO MENSAL DO DESENVOLVIMENTO - SGCLOUD - 17/05/23</a>
                           </td>
                           <td class="component">CMMI
                           </td>
@@ -645,10 +646,10 @@
               </tr>
               <tr class="color-odd">
                           <td class="ticket">
-                            <a title="View ticket" href="/sgsistemas/ticket/1286093">#1286093</a>
+                            <a title="Visualizar ticket" href="/sgsistemas/ticket/1292892">#1292892</a>
                           </td>
                           <td class="summary">
-                            <a title="View ticket" href="/sgsistemas/ticket/1286093">ENCERRAMENTO DO PROJETO - PROJETO SGCLOUD202304 - 26/04/23</a>
+                            <a title="Visualizar ticket" href="/sgsistemas/ticket/1292892">ENCERRAMENTO DO PROJETO - PROJETO SGCLOUD202305 - 24/05/23</a>
                           </td>
                           <td class="component">CMMI
                           </td>
@@ -673,10 +674,10 @@
               </tr>
               <tr class="color-even">
                           <td class="ticket">
-                            <a title="View ticket" href="/sgsistemas/ticket/1286094">#1286094</a>
+                            <a title="Visualizar ticket" href="/sgsistemas/ticket/1292893">#1292893</a>
                           </td>
                           <td class="summary">
-                            <a title="View ticket" href="/sgsistemas/ticket/1286094">AUDITORIA DE GC - PROJETO SGCLOUD202304 - BASELINE 20230324BP - 29/03/23</a>
+                            <a title="Visualizar ticket" href="/sgsistemas/ticket/1292893">AUDITORIA DE GC - PROJETO SGCLOUD202305 - BASELINE 20230421BP - 26/04/23</a>
                           </td>
                           <td class="component">CMMI
                           </td>
@@ -701,10 +702,10 @@
               </tr>
               <tr class="color-odd">
                           <td class="ticket">
-                            <a title="View ticket" href="/sgsistemas/ticket/1286095">#1286095</a>
+                            <a title="Visualizar ticket" href="/sgsistemas/ticket/1292894">#1292894</a>
                           </td>
                           <td class="summary">
-                            <a title="View ticket" href="/sgsistemas/ticket/1286095">AUDITORIA DE GC - PROJETO SGCLOUD202304 - BASELINE 20230420BE - 26/04/23</a>
+                            <a title="Visualizar ticket" href="/sgsistemas/ticket/1292894">AUDITORIA DE GC - PROJETO SGCLOUD202305 - BASELINE 20230519BE - 24/05/23</a>
                           </td>
                           <td class="component">CMMI
                           </td>
@@ -729,10 +730,10 @@
               </tr>
               <tr class="color-even">
                           <td class="ticket">
-                            <a title="View ticket" href="/sgsistemas/ticket/1286096">#1286096</a>
+                            <a title="Visualizar ticket" href="/sgsistemas/ticket/1292895">#1292895</a>
                           </td>
                           <td class="summary">
-                            <a title="View ticket" href="/sgsistemas/ticket/1286096">AUDITORIA DE GQA - PROJETO SGCLOUD202304 - BASELINE 20230324BP - 30/03/23</a>
+                            <a title="Visualizar ticket" href="/sgsistemas/ticket/1292895">AUDITORIA DE GQA - PROJETO SGCLOUD202305 - BASELINE 20230421BP - 27/04/23</a>
                           </td>
                           <td class="component">CMMI
                           </td>
@@ -757,10 +758,10 @@
               </tr>
               <tr class="color-odd">
                           <td class="ticket">
-                            <a title="View ticket" href="/sgsistemas/ticket/1286097">#1286097</a>
+                            <a title="Visualizar ticket" href="/sgsistemas/ticket/1292896">#1292896</a>
                           </td>
                           <td class="summary">
-                            <a title="View ticket" href="/sgsistemas/ticket/1286097">AUDITORIA DE GQA - PROJETO SGCLOUD202304 - BASELINE 20230420BE - 27/04/23</a>
+                            <a title="Visualizar ticket" href="/sgsistemas/ticket/1292896">AUDITORIA DE GQA - PROJETO SGCLOUD202305 - BASELINE 20230519BE - 25/05/23</a>
                           </td>
                           <td class="component">CMMI
                           </td>
@@ -785,10 +786,10 @@
               </tr>
               <tr class="color-even">
                           <td class="ticket">
-                            <a title="View ticket" href="/sgsistemas/ticket/1286098">#1286098</a>
+                            <a title="Visualizar ticket" href="/sgsistemas/ticket/1292897">#1292897</a>
                           </td>
                           <td class="summary">
-                            <a title="View ticket" href="/sgsistemas/ticket/1286098">GERACAO BASELINE-PROJETO SGCLOUD202304 - BASELINE 20230420BE - 24/04/23</a>
+                            <a title="Visualizar ticket" href="/sgsistemas/ticket/1292897">GERACAO BASELINE-PROJETO SGCLOUD202305 - BASELINE 20230519BE - 22/05/23</a>
                           </td>
                           <td class="component">CMMI
                           </td>
@@ -810,111 +811,24 @@
                             <hr />
                           </td>
               </tr><tr class="color-even">
-              </tr>
-              <tr class="color4-odd">
-                          <td class="ticket">
-                            <a title="View ticket" href="/sgsistemas/ticket/1286005">#1286005</a>
-                          </td>
-                          <td class="summary">
-                            <a title="View ticket" href="/sgsistemas/ticket/1286005">SGCLOUD -&gt; TENTAR SIMULAR SITUACAO OCORRID, ERRO PUT 500 AO TENTAR FINALIZAR UMA VENDA COM 3 FORMAS DE PAGAMENTO DIFERENTES.</a>
-                          </td>
-                          <td class="component">SGCLOUD
-                          </td>
-                          <td class="owner">alephmelo
-                          </td>
-                          <td class="type">N.P.
-                          </td>
-                          <td class="version">20/04/23
-                          </td>
-                          <td class="status">new
-                          </td>
-                          <td class="estimatedhours">1.0
-                          </td>
-                          <td class="sprint">1
-                          </td>
-              </tr><tr class="color4-odd" style="border: none; padding: 0;">
-                          <td class="fullrow" colspan="100">
-                            
-
-                            <hr />
-                          </td>
-              </tr><tr class="color4-odd">
-              </tr>
-              <tr class="color4-even">
-                          <td class="ticket">
-                            <a title="View ticket" href="/sgsistemas/ticket/1286007">#1286007</a>
-                          </td>
-                          <td class="summary">
-                            <a title="View ticket" href="/sgsistemas/ticket/1286007">SGCLOUD -&gt; O.S PARA DESENVOLVER TELA DE TROCA DE EMPRESA</a>
-                          </td>
-                          <td class="component">SGCLOUD
-                          </td>
-                          <td class="owner">ericomori
-                          </td>
-                          <td class="type">N.P.
-                          </td>
-                          <td class="version">20/04/23
-                          </td>
-                          <td class="status">new
-                          </td>
-                          <td class="estimatedhours">3.0
-                          </td>
-                          <td class="sprint">1
-                          </td>
-              </tr><tr class="color4-even" style="border: none; padding: 0;">
-                          <td class="fullrow" colspan="100">
-                            <p style="text-align:left"><font style="font-family:Verdana; font-size:12px; color:#000000; letter-spacing:0"><strong>ONDE:</strong></font></p><p style="text-align:left"><font style="font-family:Verdana; font-size:12px; color:#000000; letter-spacing:0"></font></p><p style="text-align:left"><font style="font-family:Verdana; font-size:12px; color:#000000; letter-spacing:0">- SGCloud</font></p><p style="text-align:left"><font style="font-family:Verdana; font-size:12px; color:#000000; letter-spacing:0"></font></p><p style="text-align:left"><font style="font-family:Verdana; font-size:12px; color:#000000; letter-spacing:0"><strong>O QUE FAZER:</strong></font></p><p style="text-align:left"><font style="font-family:Verdana; font-size:12px; color:#000000; letter-spacing:0"></font></p><p style="text-align:left"><font style="font-family:Verdana; font-size:12px; color:#000000; letter-spacing:0">- Desenvolver rotina para trocar de filial logada </font></p><p style="text-align:left"><font style="font-family:Verdana; font-size:12px; color:#000000; letter-spacing:0"></font></p><p style="text-align:left"><font style="font-family:Verdana; font-size:12px; color:#000000; letter-spacing:0"><strong>AUX. AO DESENVOLVIMENTO:</strong></font></p><p style="text-align:left"><font style="font-family:Verdana; font-size:12px; color:#000000; letter-spacing:0"></font></p><p style="text-align:left"><font style="font-family:Verdana; font-size:12px; color:#000000; letter-spacing:0">-</font></p><p style="text-align:left"><font style="font-family:Verdana; font-size:12px; color:#000000; letter-spacing:0"></font></p><p style="text-align:left"><font style="font-family:Verdana; font-size:12px; color:#000000; letter-spacing:0"></font></p>
-
-                            <hr />
-                          </td>
-              </tr><tr class="color4-even">
-              </tr>
-              <tr class="color4-odd">
-                          <td class="ticket">
-                            <a title="View ticket" href="/sgsistemas/ticket/1286004">#1286004</a>
-                          </td>
-                          <td class="summary">
-                            <a title="View ticket" href="/sgsistemas/ticket/1286004">COMERCIAL &gt; VENDA = ALTERACAO EM PODER DUPLICAR A VENDA OU COPIAR EREFATURAR A VENDA SEMELHANTE A FUNCAO DO PDVOFFLINE.&gt; ANEXO</a>
-                          </td>
-                          <td class="component">SGCLOUD
-                          </td>
-                          <td class="owner">katia
-                          </td>
-                          <td class="type">Tarefa
-                          </td>
-                          <td class="version">20/04/23
-                          </td>
-                          <td class="status">new
-                          </td>
-                          <td class="estimatedhours">3.0
-                          </td>
-                          <td class="sprint">1
-                          </td>
-              </tr><tr class="color4-odd" style="border: none; padding: 0;">
-                          <td class="fullrow" colspan="100">
-                            <p style="text-align:left"><font style="font-family:Verdana; font-size:12px; color:#000000; letter-spacing:0"><strong>ONDE:</strong></font></p><p style="text-align:left"><font style="font-family:Verdana; font-size:12px; color:#000000; letter-spacing:0"></font></p><p style="text-align:left"><font style="font-family:Verdana; font-size:12px; color:#000000; letter-spacing:0">- <font style="font-family:_typewriter">COMERCIAL &gt; VENDA</font></font></p><p style="text-align:left"><font style="font-family:Verdana; font-size:12px; color:#000000; letter-spacing:0"></font></p><p style="text-align:left"><font style="font-family:Verdana; font-size:12px; color:#000000; letter-spacing:0"><strong>O QUE OCORRE:</strong></font></p><p style="text-align:left"><font style="font-family:Verdana; font-size:12px; color:#000000; letter-spacing:0"></font></p><p style="text-align:left"><font style="font-family:Verdana; font-size:12px; color:#000000; letter-spacing:0">- <font style="font-family:_typewriter">ALTERACAO EM PODER DUPLICAR A VENDA OU COPIAR E REFATURAR A VENDA SEMELHANTE A FUNCAO DO PDVOFFLINE.</font></font></p><p style="text-align:left"><font style="font-family:Verdana; font-size:12px; color:#000000; letter-spacing:0">- No PDV OFF na listagem de vendas tem uma opção "copiar/refaturar(F8)" ao clicar em uma venda e selecionar F8 a venda é copiada para a tela de PDV para poder finalizar uma nova venda, sendo assim copiado os produtos que eram daquela venda, cliente, desconto, acrescimento caso tenha na venda copiada. </font></p><p style="text-align:left"><font style="font-family:Verdana; font-size:12px; color:#000000; letter-spacing:0"></font></p><p style="text-align:left"><font style="font-family:Verdana; font-size:12px; color:#000000; letter-spacing:0"><strong>O QUE FAZER:</strong></font></p><p style="text-align:left"><font style="font-family:Verdana; font-size:12px; color:#000000; letter-spacing:0"></font></p><p style="text-align:left"><font style="font-family:Verdana; font-size:12px; color:#000000; letter-spacing:0">- Criar um botão de ação na coluna "Ações" em faturar venda;</font></p><p style="text-align:left"><font style="font-family:Verdana; font-size:12px; color:#000000; letter-spacing:0">- Ao clicar nesse botão deve direcionar para tela de PDV ON com os produtos, clientes, vendedor, descontos, acrescimos... da venda copiada;</font></p><p style="text-align:left"><font style="font-family:Verdana; font-size:12px; color:#000000; letter-spacing:0">- Antes de direcionar apresentar a mensagem "Você será direcionado para tela de venda para finalziar a venda";</font></p><p style="text-align:left"><font style="font-family:Verdana; font-size:12px; color:#000000; letter-spacing:0">- Fazer a validação ao clicar no botão que se o caixa estiver fechado deve abrir o modal que o caixa estava fechado;</font></p><p style="text-align:left"><font style="font-family:Verdana; font-size:12px; color:#000000; letter-spacing:0">- Esse botão deve ter somente para venda finalizadas; </font></p><p style="text-align:left"><font style="font-family:Verdana; font-size:12px; color:#000000; letter-spacing:0"></font></p><p style="text-align:left"><font style="font-family:Verdana; font-size:12px; color:#000000; letter-spacing:0"><strong>AUX. AO DESENVOLVIMENTO:</strong></font></p><p style="text-align:left"><font style="font-family:Verdana; font-size:12px; color:#000000; letter-spacing:0"></font></p><p style="text-align:left"><font style="font-family:Verdana; font-size:12px; color:#000000; letter-spacing:0">- ANEXO. </font></p><p style="text-align:left"><font style="font-family:Verdana; font-size:12px; color:#000000; letter-spacing:0"></font></p><p style="text-align:left"><font style="font-family:Verdana; font-size:12px; color:#000000; letter-spacing:0"><strong>AUX. PARA TESTE:</strong></font></p><p style="text-align:left"><font style="font-family:Verdana; font-size:12px; color:#000000; letter-spacing:0"></font></p><p style="text-align:left"><font style="font-family:Verdana; font-size:12px; color:#000000; letter-spacing:0"><strong>- </strong>Teste com caixa aberto, fechado, e demais vendas, verificar informações se estão corretas, alterar o nome do cliente no momento da venda, emitir nota...</font></p><p style="text-align:left"><font style="font-family:Verdana; font-size:12px; color:#000000; letter-spacing:0"></font></p><p style="text-align:left"><font style="font-family:Verdana; font-size:12px; color:#FF0000; letter-spacing:0">CONTINUACAO:</font></p>
-
-                            <hr />
-                          </td>
-              </tr><tr class="color4-odd">
               </tr>
           </tbody>
       </table>
       
       <div id="help"><strong>Note:</strong>
-        See <a href="/sgsistemas/wiki/TracReports">TracReports</a> for help on using and creating reports.</div>
+        Veja <a href="/sgsistemas/wiki/TracReports">TracReports</a> para ajuda no uso e criação de relatórios.</div>
     </div>
     <div id="altlinks">
-      <h3>Download in other formats:</h3>
+      <h3>Download em outros formatos:</h3>
       <ul>
         <li class="first">
-          <a rel="nofollow" href="/sgsistemas/login?referer=%2Fsgsistemas%2Freport%2F783%3Fasc%3D1%26max%3D0%26format%3Drss" class="rss">RSS Feed</a>
+          <a rel="nofollow" href="/sgsistemas/login?referer=%2Fsgsistemas%2Freport%2F790%3Fasc%3D1%26max%3D0%26format%3Drss" class="rss">RSS Feed</a>
         </li><li>
-          <a rel="nofollow" href="/sgsistemas/report/783?asc=1&amp;max=0&amp;page=1&amp;format=csv">Comma-delimited Text</a>
+          <a rel="nofollow" href="/sgsistemas/report/790?asc=1&amp;max=0&amp;page=1&amp;format=csv">Texto separado por vírgulas</a>
         </li><li>
-          <a rel="nofollow" href="/sgsistemas/report/783?asc=1&amp;max=0&amp;page=1&amp;format=tab">Tab-delimited Text</a>
+          <a rel="nofollow" href="/sgsistemas/report/790?asc=1&amp;max=0&amp;page=1&amp;format=tab">Texto delimitado por TABs</a>
         </li><li class="last">
-          <a rel="nofollow" href="/sgsistemas/report?id=783&amp;format=sql">SQL Query</a>
+          <a rel="nofollow" href="/sgsistemas/report?id=790&amp;format=sql">Query SQL</a>
         </li>
       </ul>
     </div>
@@ -922,7 +836,7 @@
     <div id="footer" lang="en" xml:lang="en"><hr />
       <a id="tracpowered" href="http://trac.edgewall.org/"><img src="/sgsistemas/chrome/common/trac_logo_mini.png" height="30" width="107" alt="Trac Powered" /></a>
       <p class="left">Powered by <a href="/sgsistemas/about"><strong>Trac 1.0.17</strong></a><br />
-        By <a href="http://www.edgewall.org/">Edgewall Software</a>.</p>
+        Por <a href="http://www.edgewall.org/">Edgewall Software</a>.</p>
       <p class="right">Viste o site da SGSistemas em<br /><a href="http://www.sgsistemas.com.br/">http://www.sgsistemas.com.br/</a></p>
     </div>
   </body>
